@@ -14,7 +14,11 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-outline-secondary"
+            />
           </div>
         </div>
       </form>
@@ -22,19 +26,24 @@ export default function Weather() {
       <div className="row">
         <div className="col-4">
           <h1>Sun 24</h1>
-          <h2>Today in Kyiv</h2>
+          <ul>
+            <li className="Cityname">Today in Kyiv</li>
+            <li className="Condition">Clear sky</li>
+          </ul>
         </div>
-        <div className="col-4">
+        <div className="col-4 text-center">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
             alt="Weather icon"
+            className="Weathericon"
           ></img>
-          <div>Clear sky</div>
         </div>
         <div className="col-4">
-          <h2>22 °</h2>
-          <div>Humidity 15%</div>
-          <div>Wind 0 km/h</div>
+          <div className="Temp">22 °</div>
+          <ul>
+            <li className="Humidity">Humidity 15%</li>
+            <li className="Wind">Wind 0 km/h</li>
+          </ul>
         </div>
       </div>
     </div>

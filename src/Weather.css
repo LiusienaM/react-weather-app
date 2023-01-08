@@ -1,0 +1,53 @@
+.Weather {
+  font-family: "Noto Sans", sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ecedef;
+  border-radius: 10px;
+  padding: 50px 10px 50px 10px;
+  color: #202124;
+}
+
+.form-control {
+  margin-left: 20px;
+}
+
+.Weather h1 {
+  margin: 40px 0px 10px 30px;
+  color: #202124;
+  font-size: 28px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Cityname,
+.Condition {
+  color: #70757a;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.Weather img {
+  width: 120px;
+  margin-top: 30px;
+}
+
+.Temp {
+  margin: 40px 0px 15px 40px;
+  color: #202124;
+  font-size: 40px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.Humidity,
+.Wind {
+  color: #70757a;
+  font-size: 16px;
+  margin-left: 20px;
+}
