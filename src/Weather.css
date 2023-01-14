@@ -1,7 +1,7 @@
 .Weather {
   font-family: "Noto Sans", sans-serif;
   max-width: 550px;
-  margin: 30px auto;
+  margin: 30px auto 15px auto;
   border: 1px solid #ecedef;
   border-radius: 10px;
   padding: 50px 10px 50px 10px;
