@@ -14,6 +14,7 @@ function App() {
           <a
             href="https://luminous-gingersnap-d193d9.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Liusiena M
           </a>{" "}
@@ -21,6 +22,7 @@ function App() {
           <a
             href="https://github.com/LiusienaM/react-weather-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
@@ -28,6 +30,7 @@ function App() {
           <a
             href="https://ornate-paprenjak-36607c.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             hosted on Netlify
           </a>
